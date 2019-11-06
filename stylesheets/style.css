@@ -11,7 +11,7 @@
 8. === Footer ===
 
 */
-/*'
+/*
 * === Global ===
 */
 
@@ -460,7 +460,7 @@ html::-webkit-scrollbar-thumb
   font-size:14px;  
   list-style-position: outside;
   /* list-style: none;   */
-  padding: 15px 0 0 0;
+  padding: 5px 20px;
   vertical-align:center;  
 }
 .faq-box ol li {
