@@ -11,7 +11,7 @@
 8. === Footer ===
 
 */
-/*
+/*'
 * === Global ===
 */
 
@@ -37,7 +37,7 @@ a {
 
 
 html,body{
-  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;;
   font-size: 14px;
   padding: 0;
   margin:0;
@@ -468,7 +468,7 @@ html::-webkit-scrollbar-thumb
   background-position: top 2px left 0px;
   background-repeat: no-repeat;
   background-size: 22px 18px; */
-  padding-left: 33px
+  padding-left: 14px
 }
 .faq-img img{
   height: 650px;
@@ -966,7 +966,7 @@ html::-webkit-scrollbar-thumb
 
 .footer-bg {
   background: #EAF0FC;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 15px;
   padding: 40px 0;
 }
