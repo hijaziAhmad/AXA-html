@@ -624,6 +624,19 @@ html::-webkit-scrollbar-thumb
 	padding: 15px 15px;
 	width: 100%;
 }
+/*to avoid autofill becoming blue*/
+.form-wrapper input:-webkit-autofill,
+.form-wrapper input:-webkit-autofill:hover, 
+.form-wrapper input:-webkit-autofill:focus,
+.form-wrapper textarea:-webkit-autofill,
+.form-wrapper textarea:-webkit-autofill:hover,
+.form-wrapper textarea:-webkit-autofill:focus,
+.form-wrapper select:-webkit-autofill,
+.form-wrapper select:-webkit-autofill:hover,
+.form-wrapper select:-webkit-autofill:focus {
+  	-webkit-text-fill-color: #3c3c3c;
+	 -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
 
 /*
 *---checkbox---
